@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tableau_humeurs",
+  "info": {
+    "singularName": "tableau-humeur",
+    "pluralName": "tableau-humeurs",
+    "displayName": "tableau_humeur",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "tableau_humeur"
+    },
+    "nombre_de_reaction": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "uid": {
+      "type": "integer"
+    },
+    "Humeur": {
+      "type": "string"
+    },
+    "Moodnumber": {
+      "type": "integer"
+    }
+  }
+}

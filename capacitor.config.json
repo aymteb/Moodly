@@ -1,0 +1,8 @@
+{
+  "appId": "com.exemple.app",
+  "appName": "Moodly",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

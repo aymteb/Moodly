@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tableau_tags",
+  "info": {
+    "singularName": "tableau-tag",
+    "pluralName": "tableau-tags",
+    "displayName": "Tableau_tag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "tableau_tag"
+    },
+    "nombre_de_reaction": {
+      "type": "integer",
+      "min": 0
+    },
+    "Tag": {
+      "type": "string"
+    }
+  }
+}

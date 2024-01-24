@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmoodly=self.webpackChunkmoodly||[]).push([[4459],{64459:function(t,e,l){l.r(e),l.d(e,{REVIEW_WORKFLOW_STAGE_SORT_OPTION_NAME:function(){return s}});const s={value:"strapi_stage[name]",label:{id:"settings.defaultSortOrder.reviewWorkflows.label",defaultMessage:"Review Stage"}}}}]);
